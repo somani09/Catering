@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./home.module.scss";
 import background from "../../../public/svg/background_food.svg";
 import ServiceBar from "./serviceBar";
+import Dishes from "./dishes";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </div>
 
       <ServiceBar />
+      <Dishes />
     </main>
   );
 }
