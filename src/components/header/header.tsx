@@ -16,17 +16,10 @@ const header: React.FC = () => {
           >
             <Image src={logo} alt="Your SVG" objectFit="contain" />
           </Link>
-          <div className="flex items-center lg:order-2">
-            {/* <Link
+          {/* <div className="flex items-center lg:order-2">
+            <Link
               href="#"
               className={`text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 ${styles.user_options}`}
-            >
-              <Image src={user} alt="Your SVG" objectFit="contain" />
-            </Link> */}
-
-            <Link
-              href="/"
-              className={`flex items-center h-14 w-14 md:h-24 md:w-24 ${styles.logo}`}
             >
               <Image src={user} alt="Your SVG" objectFit="contain" />
             </Link>
@@ -64,7 +57,7 @@ const header: React.FC = () => {
                 ></path>
               </svg>
             </button>
-          </div>
+          </div> */}
           <div
             className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
             id="mobile-menu-2"
