@@ -10,11 +10,11 @@ const Dishes = () => {
     <div className={`w-5/6 flex flex-col ${styles.dishes} mb-20`}>
       <div className={`flex flex-row justify-between items-center px-40 mt-8`}>
         <div className={`${styles.bar}`}></div>
-        <div className={`section-title`}>Dishes</div>
+        <div className={`${styles.title} section-title`}>Dishes</div>
         <div className={`${styles.bar}`}></div>
       </div>
       <div
-        className={`w-full flex flex-row justify-center mt-20 ${styles.dish_container}`}
+        className={`w-full flex flex-row justify-center mt-16 ${styles.dish_container}`}
       >
         <div
           className={` flex items-center justify-center  h-64 w-64 md:h-64 md:w-64 relative ${styles.dish}`}

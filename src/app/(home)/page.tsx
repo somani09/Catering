@@ -3,6 +3,7 @@ import styles from "./home.module.scss";
 import background from "../../../public/svg/background_food.svg";
 import ServiceBar from "./serviceBar";
 import Dishes from "./dishes";
+import Reviews from "./reviews";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
       <ServiceBar />
       <Dishes />
+      <Reviews />
     </main>
   );
 }
