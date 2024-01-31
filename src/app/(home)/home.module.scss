@@ -20,7 +20,8 @@
 }
 
 .bar {
-  width: 300px;
+  // width: 300px;
+  flex: 1;
   height: 3px;
   background-color: #928b8b;
 }
@@ -59,4 +60,38 @@
   width: 97%;
   color: white;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  padding: 0 50px;
+}
+
+.reviews_background_container {
+  height: 465px;
+  margin-top: 40px;
+}
+
+.reviews_background {
+  position: absolute;
+  height: 465px;
+  z-index: -1;
+}
+
+.review_box {
+  background-color: white;
+  width: 20%;
+  height: 349px;
+  border-radius: 20px;
+  margin: 0px 25px;
+  .review_author {
+    font-size: 30px;
+    color: rgba(94, 99, 82, 1);
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .review_text {
+    padding-top: 10px;
+    width: 179px;
+  }
 }

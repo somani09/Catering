@@ -15,7 +15,7 @@ const ServiceBar = () => {
           className={`flex flex-row justify-between items-center px-40 mt-8`}
         >
           <div className={`${styles.bar}`}></div>
-          <div className={`section-title`}>What we Offer</div>
+          <div className={`${styles.title} section-title`}>What we Offer</div>
           <div className={`${styles.bar}`}></div>
         </div>
         <div className={`mt-8 flex flex-row justify-between`}>
